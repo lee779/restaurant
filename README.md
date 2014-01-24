@@ -1,4 +1,22 @@
 ##Restaurant Project Repository
+Restaurant Project consists of 5 agents (the host, waiter, customer, cook, and cashier). This simulates a restaurant with normative and non normative scenarios listed below. See file name "doc" for agent design documentation.
+
+Normal scenario
+
+User can add new customers with cash values. Based on the cash value, customer will make a decision on which item it can buy from the menu. If he is too poor to afford anything, he will leave.
+
+Waiters can be added and can request for breaks. The host determines if the waiter can go on the break. (ie. Host will not grant a waiter a break if he is the only waiter working)
+
+Customer picks food, eats, and pays at the cashier.
+
+Non-normal scenario
+
+Customer can be a thief and order food that he cannot pay.
+
+Cashier will give the customer(thief) a warning.
+
+If that same customer returns, he is sent to the cook to do dishes if he refuses to pay again.
+
 
 ###Student Information
   + Name: Ju Young Lee
